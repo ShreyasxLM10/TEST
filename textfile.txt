@@ -1,0 +1,16 @@
+<html>
+    <body>
+        <input type="text" id="x" value="Enter x"><br>
+        <input type="text" id="y" value="enter y"><br>
+        <button onclick="myfunction()">Multiplication:</button>
+        <p id="demo"></p>
+        <script>
+            function myfunction()
+            {
+                var x=document.getElementById("x").value;
+                var y=document.getElementById("y").value;
+                document.getElementById("demo").innerHTML=x*y;
+            }
+        </script>
+    </body>
+</html>
