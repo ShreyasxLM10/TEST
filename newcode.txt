@@ -1,0 +1,16 @@
+<html>
+    <body>
+        <input type="text" id="x" value="Enter first number"><br>
+        <input type="text" id="y" value="enter second number"><br>
+        <button onclick="myfunction()">Division:</button>
+        <p id="demo"></p>
+        <script>
+            function myfunction()
+            {
+                var x=document.getElementById("x").value;
+                var y=document.getElementById("y").value;
+                document.getElementById("demo").innerHTML=x/y;
+            }
+        </script>
+    </body>
+</html>
